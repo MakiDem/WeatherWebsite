@@ -1,0 +1,48 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5em;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  z-index: 1000;
+}
+.left-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 4em;
+}
+.icon-title {
+  width: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+.right-header {
+  display: flex;
+  flex-shrink: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.links div {
+  color: white;
+  padding: 8px;
+}
+.profile-container {
+  margin-right: 10%;
+}

@@ -1,0 +1,70 @@
+body {
+  font-family: Ubuntu;
+}
+.search-city-panel {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  width: 82%;
+  height: 360px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px 36px;
+  border-radius: 4em;
+}
+.weather-search {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.city-input, .name-input {
+  width: 80%;
+  height: 30px;
+  border-radius: 5em;
+  padding: 14px 14px 14px 74px;
+  margin-top: 1em;
+  font-size: 16px;
+}
+.enter-button {
+  margin-top: 18px;
+  height: 40px;
+  width: 40%;
+  border-radius: 4em;
+  padding: 24px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Fira Sans;
+  background-color: rgb(252, 90, 31);
+  color: white;
+  border-style: none
+}
+.input-container {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.name, .city {
+  position: relative;
+}
+.input-icon {
+  width: 2em;
+  position: absolute;
+  left: 2.25em;
+  top: 1.75em;
+}
+
+
+
+

@@ -1,0 +1,148 @@
+.page {
+  display: flex;
+  flex-direction: row;
+}
+.weather-report {
+  width: 80%;
+}
+
+main {
+  margin-top: 100px;
+  padding-top: 100px;
+  height: 900px;
+  width: 50%;
+  background-color: red;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1), rgb(0,0,0,0.1));
+  padding: 20px;
+  color: white;
+  font-family: Fira Sans;
+  border-radius: 2em;
+}
+main .text-panel {
+  margin: 5%;
+  font-size: 20px;
+}
+.city-container {
+  background-color: rgba(0,0,0,0.4);
+  margin-top: 18%;
+  width: 40%;
+  height: 50%;
+  border-radius: 3em;
+  overflow: hidden;
+  margin-left: 2%;
+  margin-right: 2% ;
+}
+.city-container img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 2em;
+}
+.citytext {
+  width: 80%;
+  padding: 8%;
+  color: white;
+}
+.cityname {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom:8%;
+}
+.coords {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.coords div span {
+  font-weight: bold;
+}
+.weather-report {
+  font-size: 22px;
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.weather-report div {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.weather-report div span {
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+@media (max-width: 600px ) {
+  .page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coords {
+    font-size: 16px;
+  }
+  .weather-report div {
+    font-size: 16px;
+  }
+}
+@media (min-width: 601px) and (max-width: 850px) {
+  .page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coords {
+    font-size: 16px;
+  }
+  .weather-report div {
+    font-size: 16px;
+  }
+}
+@media (min-width: 851px) and (max-width: 999px) {
+  .input-icon {
+    left: 3em;
+  }
+}
+
+@media (min-width: 1000px) and (max-width:1300px) {
+  .page-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-city-panel {
+    margin-left: 20px;
+    max-width: 50%;
+  }
+  .input-icon {
+    left: 2.8em
+  }
+  .main {
+    width: 60%;
+  }
+}
+@media (min-width: 1301px) and (max-width:1800px) {
+  .input-icon {
+    left: 3.25em;
+  }
+  .page-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-city-panel {
+    margin-left: 20px;
+    max-width: 50%;
+  }
+  .main {
+    width: 60%;
+  }
+}
